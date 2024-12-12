@@ -1,0 +1,120 @@
+.card{
+    height: 350px;
+    width: 250px;
+    border: 1px solid black;
+}
+
+.card p{
+    padding: 10px;
+    font-weight: bold;
+    margin-bottom: 90px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+}
+.end a{
+    text-decoration: none;
+    color: green;
+    font-weight: bold;
+    font-size: 19px;
+}
+i:hover{
+    color: bisque;
+}
+.span:hover{
+    color: black;
+}
+.main{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-around;
+}
+.round-button1{
+    background-color: #f99312; 
+    color: white; 
+    border: none;
+    padding: 15px 30px; 
+    font-size: 18px; 
+     font-weight: bold;
+    border-radius: 50px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  
+}
+
+
+.round-button1:hover {
+    background-color: grey;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.round-button {
+    background-color: #f99312; 
+    color: white; 
+    border: none;
+    padding: 15px 30px; 
+    font-size: 18px; 
+     font-weight: bold;
+    border-radius: 50px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.round-button:hover {
+    background-color: grey;
+}
+.buton{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Footer styles */
+.footer {
+    background-color:#333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    padding-top: 10px;
+}
+
+.footer .social-links {
+    margin-bottom: 10px;
+}
+
+/* Styling for social media icons */
+.social-icon {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.social-icon img {
+    width: 30px; /* Set a fixed width for icons */
+    height: 30px;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.social-icon:hover img {
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+/* Styling for the copyright text */
+.footer p {
+    font-size: 14px;
+    margin-top: 10px;
+}
